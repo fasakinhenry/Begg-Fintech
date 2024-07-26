@@ -8,15 +8,12 @@ const Hero = () => {
       <div className='absolute top-0 left-0 w-[100vw] h-[100vh] bg-gradient-to-br from-green-700 via-transparent to-transparent opacity-30' />
 
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-64 pb-16'>
-        <div className='text-center'>
-          <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6 font-bricolage'>
-            Send and Request funds
-            <br />
-            Like never before
+        <div className='text-center flex flex-col items-center'>
+          <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6 font-bricolage max-w-[50rem]'>
+            Send and Request funds Like never before
           </h1>
-          <p className='text-xl text-gray-400 mb-10 max-w-3xl mx-auto font-inter'>
+          <p className='text-xl text-gray-400 mb-10 mx-auto font-inter max-w-[32rem]'>
             Meet the system for modern software development.
-            <br />
             Streamline issues, projects, and product roadmaps.
           </p>
           <div className='flex justify-center space-x-4'>
