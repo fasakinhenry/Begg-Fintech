@@ -1,7 +1,13 @@
+// src/App.jsx
 import React from 'react';
+import LandingPage from './pages/LandingPage';
 
-const App = () => {
-  return <div className='text-3xl font-bold'>App</div>;
-};
+function App() {
+  return (
+    <div>
+      <LandingPage />
+    </div>
+  );
+}
 
 export default App;
