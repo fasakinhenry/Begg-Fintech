@@ -5,7 +5,8 @@ const Hero = () => {
   return (
     <div className='relative bg-black overflow-hidden min-h-screen'>
       {/* Gradient in top left */}
-      <div className='absolute top-0 left-0 w-[100vw] h-[100vh] bg-gradient-to-br from-green-700 via-transparent to-transparent opacity-30' />
+      <div className='absolute top-0 left-0 w-[100vw] h-[100vh] bg-gradient-to-br from-green-600 via-transparent to-transparent opacity-30' />
+      <div className='absolute top-0 left-0 w-[100vw] h-[60vh] bg-gradient-to-bl from-green-700 via-transparent to-transparent opacity-30' />
 
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-64 pb-16'>
         <div className='text-center flex flex-col items-center'>
