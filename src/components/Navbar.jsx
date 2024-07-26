@@ -7,6 +7,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
+            <img src="/logo.png" alt="Begg Logo" className='h-10 w-10 mr-5 rounded-md' />
             <a href="#" className="text-white font-semibold text-lg font-bricolage">Begg</a>
           </div>
           <div className="hidden md:block">
