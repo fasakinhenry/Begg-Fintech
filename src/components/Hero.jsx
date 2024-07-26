@@ -3,43 +3,53 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="relative bg-black overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-          <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Linear is a purpose-built tool for</span>{' '}
-                <span className="block text-indigo-600 xl:inline">planning and building products</span>
-              </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Meet the system for modern software development.
-                Streamline issues, projects, and product roadmaps.
-              </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  
-                   <a href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                  >
-                    Start building
-                  </a>
-                </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  
-                    <a href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                  >
-                    Introducing Initiatives
-                  </a>
-                </div>
-              </div>
-            </div>
-          </main>
+    <div className='relative bg-black overflow-hidden min-h-screen'>
+      {/* Gradient in top left */}
+      <div className='absolute top-0 left-0 w-[100vw] h-[100vh] bg-gradient-to-br from-green-800 via-transparent to-transparent opacity-40' />
+
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16'>
+        <div className='text-center'>
+          <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6'>
+            Linear is a purpose-built tool for
+            <br />
+            planning and building products
+          </h1>
+          <p className='text-xl text-gray-400 mb-10 max-w-3xl mx-auto'>
+            Meet the system for modern software development.
+            <br />
+            Streamline issues, projects, and product roadmaps.
+          </p>
+          <div className='flex justify-center space-x-4'>
+            <button className='px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-opacity-90 transition'>
+              Start building
+            </button>
+            <button className='px-6 py-3 bg-white bg-opacity-10 text-white rounded-full font-medium hover:bg-opacity-20 transition flex items-center'>
+              Introducing Initiatives
+              <svg
+                className='w-4 h-4 ml-2'
+                fill='none'
+                stroke='currentColor'
+                viewBox='0 0 24 24'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  strokeWidth={2}
+                  d='M9 5l7 7-7 7'
+                />
+              </svg>
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        {/* Add your feature showcase image or component here */}
+
+        {/* Placeholder for the product image */}
+        <div className='mt-20'>
+          <div className='bg-gray-900 rounded-lg shadow-2xl overflow-hidden'>
+            {/* You would replace this with an actual image of the Linear interface */}
+            <div className='h-96 bg-gradient-to-b from-gray-800 to-gray-900' />
+          </div>
+        </div>
       </div>
     </div>
   );
