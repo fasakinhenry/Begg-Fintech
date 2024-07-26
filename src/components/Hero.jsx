@@ -5,26 +5,26 @@ const Hero = () => {
   return (
     <div className='relative bg-black overflow-hidden min-h-screen'>
       {/* Gradient in top left */}
-      <div className='absolute top-0 left-0 w-[100vw] h-[100vh] bg-gradient-to-br from-green-800 via-transparent to-transparent opacity-40' />
+      <div className='absolute top-0 left-0 w-[100vw] h-[100vh] bg-gradient-to-br from-green-700 via-transparent to-transparent opacity-30' />
 
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16'>
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-64 pb-16'>
         <div className='text-center'>
-          <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6'>
-            Linear is a purpose-built tool for
+          <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6 font-bricolage'>
+            Send and Request funds
             <br />
-            planning and building products
+            Like never before
           </h1>
-          <p className='text-xl text-gray-400 mb-10 max-w-3xl mx-auto'>
+          <p className='text-xl text-gray-400 mb-10 max-w-3xl mx-auto font-inter'>
             Meet the system for modern software development.
             <br />
             Streamline issues, projects, and product roadmaps.
           </p>
           <div className='flex justify-center space-x-4'>
-            <button className='px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-opacity-90 transition'>
-              Start building
+            <button className='px-6 py-3 bg-green-400 text-black rounded-full font-medium hover:bg-opacity-90 transition font-inter cursor-pointer'>
+              Get the App
             </button>
-            <button className='px-6 py-3 bg-white bg-opacity-10 text-white rounded-full font-medium hover:bg-opacity-20 transition flex items-center'>
-              Introducing Initiatives
+            <button className='px-6 py-3 bg-white bg-opacity-10 text-white rounded-full font-medium hover:bg-opacity-20 transition flex items-center font-inter cursor-pointer'>
+              Get started
               <svg
                 className='w-4 h-4 ml-2'
                 fill='none'
