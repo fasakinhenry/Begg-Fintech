@@ -1,8 +1,8 @@
-# React + Vite
+# Begg Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains all the frontend for the Begg Mobile App which involves the landing page and the Web version of the Begg mobile app. 
 
-Currently, two official plugins are available:
+## Technologies used(stacks) 🛠️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Javascript - The main language used throughout the code
+- React - The frontend framework used
