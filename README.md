@@ -10,3 +10,14 @@ This repository contains all the frontend for the Begg Mobile App which involves
 - Tailwind - For styling
 - Vite - For project bundling, setup
 - NPM - For build
+
+## App checklist ☑️
+
+- [x] Landing Page
+- [ ] Login Page
+- [ ] Signup Page
+- [ ] Homepage
+- [ ] Wallet page
+- [ ] Cards page
+- [ ] Profile Page
+- [ ] Dashboard
