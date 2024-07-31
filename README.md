@@ -6,3 +6,7 @@ This repository contains all the frontend for the Begg Mobile App which involves
 
 - Javascript - The main language used throughout the code
 - React - The frontend framework used
+- GSAP - Used for all the animations and transitions
+- Tailwind - For styling
+- Vite - For project bundling, setup
+- NPM - For build
