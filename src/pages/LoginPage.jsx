@@ -20,11 +20,11 @@ const LoginPage = () => {
             Transcribe, summarize, search, and analyze all your voice
             conversations.
           </p>
-          <button className='flex items-center justify-center bg-[#000000] bg-opacity-50 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
+          <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
             <img src='/img/google-icon.png' alt='' className='mr-2 h-5 w-5' />
             Continue with Google
           </button>
-          <button className='flex items-center justify-center bg-[#000000] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
+          <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
             <img
               src='/img/microsoft-icon.png'
               alt=''
