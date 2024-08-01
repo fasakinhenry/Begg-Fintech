@@ -5,7 +5,7 @@ import { GoogleIcon, MicrosoftIcon, SecurityIcon } from '../components/Icons';
 const Login = () => {
   return (
     <LoginPageLayout>
-      <div className='flex flex-col items-center justify-center w-full p-8 md:w-1/2'>
+      <div className='flex flex-col items-center justify-center w-full h-full p-8 md:w-1/2'>
         <div className='mb-8 text-3xl font-bold text-center'>
           <img src='/path/to/logo.png' alt='Fireflies.ai' className='mb-4' />
           Automate your meeting notes
@@ -49,11 +49,10 @@ const Login = () => {
           about the steps we take to ensure security.
         </p>
       </div>
-      <div className='hidden md:flex items-center justify-center w-full bg-gray-800 md:w-1/2'>
+      <div className='hidden md:flex items-center justify-center w-full h-full bg-gray-800 md:w-1/2'>
         <div className='relative w-full h-full p-8'>
           {/* Dark SVG grids */}
           <div className='absolute inset-0 opacity-50'>
-            {/* You can customize the SVG grid */}
             <svg className='w-full h-full'>
               <rect x='0' y='0' width='100%' height='100%' fill='url(#grid)' />
               <defs>
