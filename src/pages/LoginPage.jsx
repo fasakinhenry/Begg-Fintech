@@ -5,7 +5,7 @@ import { GoogleIcon, MicrosoftIcon, SecurityIcon } from '../components/Icons';
 const Login = () => {
   return (
     <LoginPageLayout>
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center justify-center w-full p-8 md:w-1/2'>
         <div className='mb-8 text-3xl font-bold text-center'>
           <img src='/path/to/logo.png' alt='Fireflies.ai' className='mb-4' />
           Automate your meeting notes
@@ -48,6 +48,40 @@ const Login = () => {
           </a>{' '}
           about the steps we take to ensure security.
         </p>
+      </div>
+      <div className='hidden md:flex items-center justify-center w-full bg-gray-800 md:w-1/2'>
+        <div className='relative w-full h-full p-8'>
+          {/* Dark SVG grids */}
+          <div className='absolute inset-0 opacity-50'>
+            {/* You can customize the SVG grid */}
+            <svg className='w-full h-full'>
+              <rect x='0' y='0' width='100%' height='100%' fill='url(#grid)' />
+              <defs>
+                <pattern
+                  id='grid'
+                  width='40'
+                  height='40'
+                  patternUnits='userSpaceOnUse'
+                >
+                  <path
+                    d='M 40 0 L 0 0 0 40'
+                    fill='none'
+                    stroke='gray'
+                    strokeWidth='1'
+                  />
+                </pattern>
+              </defs>
+            </svg>
+          </div>
+          {/* Centered image */}
+          <div className='flex items-center justify-center w-full h-full'>
+            <img
+              src='/path/to/your-image.png'
+              alt='Onboarding'
+              className='max-w-full max-h-full'
+            />
+          </div>
+        </div>
       </div>
     </LoginPageLayout>
   );
