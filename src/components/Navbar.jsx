@@ -43,13 +43,13 @@ const Navbar = () => {
           </div>
           <div className='flex items-center space-x-4'>
             <Link
-              href='/login'
+              to='/login'
               className='text-gray-300 hover:text-white text-sm font-medium'
             >
               Log in
             </Link>
             <Link
-              href='/signup'
+              to='/signup'
               className='px-3 py-2 rounded-md text-sm font-medium text-white bg-white bg-opacity-10 hover:bg-opacity-20'
             >
               Sign up
