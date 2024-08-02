@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
@@ -11,36 +12,35 @@ const LoginPage = () => {
             alt='fireflies.ai'
             className='h-10'
           /> */}
-          <div className='font-bricolage ml-5 text-xl font-bold'>Begg</div>
+          <Link to='/' className='font-bricolage ml-5 text-xl font-bold'>
+            Begg
+          </Link>
         </header>
         <main className='flex-grow flex flex-col justify-center max-w-md mx-auto w-full'>
           <h1 className='text-4xl font-bold mb-4 font-bricolage'>
-            Automate your meeting notes
+            Maintain steeze, Request Funds Easily
           </h1>
           <p className='text-gray-400 mb-8 font-inter'>
-            Transcribe, summarize, search, and analyze all your voice
-            conversations.
+            Send funds in seconds, request
+            funds with a tap. No more waiting
+            in line or dealing with complicated transfers.
           </p>
           <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
             <img src='/img/Google.svg' alt='' className='mr-2 h-5 w-5' />
             Continue with Google
           </button>
           <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
-            <img
-              src='/img/microsoft.svg'
-              alt=''
-              className='mr-2 h-5 w-5'
-            />
+            <img src='/img/microsoft.svg' alt='' className='mr-2 h-5 w-5' />
             Continue with Microsoft
           </button>
           <a
             href='#'
             className='text-sm text-blue-400 hover:underline mb-8 text-center font-inter'
           >
-            Why does Fireflies require access to my calendar?
+            Use normal signin
           </a>
           <div className='flex items-center justify-center border border-green-600 rounded-md py-2 px-4 text-green-600 text-sm mb-8 font-inter'>
-            <img src='/img/lock-icon.png' alt='' className='mr-2 h-4 w-4' />
+            <img src='/img/secured.svg' alt='' className='mr-2 h-4 w-4' />
             Secured by 256-bit AES and 256-bit SSL/TLS encryption
           </div>
           <p className='text-xs text-gray-500 text-center font-inter'>
