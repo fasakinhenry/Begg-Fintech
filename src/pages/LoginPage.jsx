@@ -7,11 +7,7 @@ const LoginPage = () => {
       {/* Left side */}
       <div className='flex flex-col w-full md:w-3/5 p-8'>
         <header className='flex mb-16 items-center'>
-          <img
-            src='/logo.png'
-            alt='Begg Logo'
-            className='h-10'
-          />
+          <img src='/logo.png' alt='Begg Logo' className='h-10' />
           <Link to='/' className='font-bricolage ml-5 text-xl font-bold'>
             Begg
           </Link>
@@ -21,9 +17,8 @@ const LoginPage = () => {
             Maintain steeze, Request Funds Easily
           </h1>
           <p className='text-gray-400 mb-8 font-inter'>
-            Send funds in seconds, request
-            funds with a tap. No more waiting
-            in line or dealing with complicated transfers.
+            Send funds in seconds, request funds with a tap. No more waiting in
+            line or dealing with complicated transfers.
           </p>
           <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
             <img src='/img/Google.svg' alt='' className='mr-2 h-5 w-5' />
@@ -39,7 +34,7 @@ const LoginPage = () => {
           >
             Use normal signin
           </a>
-          <div className='flex items-center justify-center border border-green-600 rounded-md py-2 px-4 text-green-600 text-sm mb-8 font-inter'>
+          <div className='flex items-center justify-center border border-green-600 rounded-md py-2 px-4 text-green-600 text-sm mb-4 font-inter'>
             <img src='/img/secured.svg' alt='' className='mr-2 h-4 w-4' />
             Secured by 256-bit AES and 256-bit SSL/TLS encryption
           </div>
