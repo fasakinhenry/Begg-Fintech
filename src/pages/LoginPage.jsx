@@ -7,11 +7,11 @@ const LoginPage = () => {
       {/* Left side */}
       <div className='flex flex-col w-full md:w-3/5 p-8'>
         <header className='flex mb-16 items-center'>
-          {/* <img
+          <img
             src='/logo.png'
-            alt='fireflies.ai'
+            alt='Begg Logo'
             className='h-10'
-          /> */}
+          />
           <Link to='/' className='font-bricolage ml-5 text-xl font-bold'>
             Begg
           </Link>
@@ -44,7 +44,7 @@ const LoginPage = () => {
             Secured by 256-bit AES and 256-bit SSL/TLS encryption
           </div>
           <p className='text-xs text-gray-500 text-center font-inter'>
-            By signing up, I agree to Fireflies'{' '}
+            By signing up, I agree to Begg's{' '}
             <a href='#' className='underline'>
               Terms of Service
             </a>
@@ -84,8 +84,7 @@ const LoginPage = () => {
             className='h-5 mb-2 mx-auto'
           />
           <p className='text-sm mb-4 font-inter'>
-            "Fireflies keeps me 100% present in meetings without losing any of
-            the details."
+            "Begg allows me to send Funds easily with different convenient transfer methods"
           </p>
           <div className='flex items-center justify-center'>
             <img
