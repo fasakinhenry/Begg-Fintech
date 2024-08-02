@@ -30,8 +30,8 @@ const LoginPage = () => {
             Continue with Google
           </button>
           <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
-            <img src='/img/microsoft.svg' alt='' className='mr-2 h-5 w-5' />
-            Continue with Microsoft
+            <img src='/img/apple.svg' alt='' className='mr-2 h-5 w-5' />
+            Continue with Apple
           </button>
           <a
             href='#'
