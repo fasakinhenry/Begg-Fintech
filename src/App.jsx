@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Transfer from './pages/Transfer';
 import Scan from './pages/Scan';
 import Hubs from './pages/Hubs';
+import Logout from './pages/Logout';
 import Profile from './pages/Profile';
 import Sidebar from './components/Sidebar';
 import BottomNavbar from './components/BottomNavbar';
@@ -47,6 +48,14 @@ function App() {
           element={
             <MainLayout>
               <Hubs />
+            </MainLayout>
+          }
+        />
+        <Route
+          path='/logout'
+          element={
+            <MainLayout>
+              <Logout />
             </MainLayout>
           }
         />
