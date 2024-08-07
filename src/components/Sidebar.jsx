@@ -109,8 +109,28 @@ const Sidebar = () => {
             </>
           )}
         </NavLink>
+        <NavLink
+          to='/logout'
+          className={({ isActive }) =>
+            `sidebar-link flex items-center text-lg font-inter ${
+              isActive
+                ? 'bg-gray-800 text-green-400 rounded-lg px-4 py-2'
+                : 'hover:bg-gray-700 hover:text-white rounded-lg px-4 py-2'
+            }`
+          }
+        >
+          {({ isActive }) => (
+            <>
+              <LogoutCurve
+                className={`mr-3 ${isActive ? 'text-2xl font-bold' : ''}`}
+                variant={isActive ? 'Bold' : 'Outline'}
+              />
+              Logout
+            </>
+          )}
+        </NavLink>
       </nav>
-      <div className='mt-auto flex items-center'>
+      <div className='mt-auto flex items-center pt-4 border-t border-gray-700'>
         <img
           src='/profile.jpg'
           alt='Profile'
