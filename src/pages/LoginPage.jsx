@@ -20,10 +20,10 @@ const LoginPage = () => {
             Send funds in seconds, request funds with a tap. No more waiting in
             line or dealing with complicated transfers.
           </p>
-          <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
+          <Link to="/home" className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
             <img src='/img/Google.svg' alt='' className='mr-2 h-5 w-5' />
             Continue with Google
-          </button>
+          </Link>
           <button className='flex items-center justify-center bg-[#fdfdfd] bg-opacity-10 hover:bg-opacity-20 text-white rounded-md py-3 mb-4 transition-colors font-inter'>
             <img src='/img/apple.svg' alt='' className='mr-2 h-5 w-5' />
             Continue with Apple
