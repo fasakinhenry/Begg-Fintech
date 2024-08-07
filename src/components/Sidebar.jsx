@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
-  Home2,
+  Home,
   MoneyChange,
   Scan,
   Category,
@@ -41,7 +41,7 @@ const Sidebar = () => {
         >
           {({ isActive }) => (
             <>
-              <Home2
+              <Home
                 className={`mr-3 ${isActive ? 'text-2xl font-bold' : ''}`}
                 variant={isActive ? 'Bold' : 'Outline'}
               />
